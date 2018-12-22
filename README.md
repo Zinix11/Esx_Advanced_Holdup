@@ -2,6 +2,11 @@
 
 ESX Advanced Holdup
 
+Original from https://github.com/LuaDeldu/esx_advanced_holdup
+
+Editted by MadKiwi and Zinix
+
+Changes added over 150 loctions, across multiple zones, which include safes, cash registers, holdings, banks and a depository
 
 [INSTALLATION]
 
