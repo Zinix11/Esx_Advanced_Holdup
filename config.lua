@@ -1391,7 +1391,7 @@ Config.Zones = {
 		TimeBeforeNewRob 	= 3600,
 		PoliceRequired		= 3
 	},	
-		["Scoops Liquor Barn (Route 68) *Cash*"] = {
+		["Scoops Liquour Barn (Route 68) *Cash*"] = {
 		Pos				= { x = 1165.99, y = 2710.87, z = 37.16 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
@@ -1406,7 +1406,7 @@ Config.Zones = {
 		TimeBeforeNewRob 	= 1800,
 		PoliceRequired		= 1
 	},		
-		["Scoops Liquor Barn (Route 68) *Safe*"] = {
+		["Scoops Liquour Barn (Route 68) *Safe*"] = {
 		Pos				= { x = 1168.47, y = 2717.87, z = 36.16 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
@@ -1421,7 +1421,7 @@ Config.Zones = {
 		PoliceRequired		= 3
 	},
 		["Yellow Jack Inn (Panorama Dr) *Cash*"] = {
-		Pos				= { x = 1165.99, y = 2710.87, z = 37.16 },
+		Pos				= { x = 1994.59, y = 3046.71, z = 46.22 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
@@ -1436,7 +1436,7 @@ Config.Zones = {
 		PoliceRequired		= 1
 	},		
 		["Yellow Jack Inn (Panorama Dr) *Safe*"] = {
-		Pos				= { x = 1168.47, y = 2717.87, z = 36.16 },
+		Pos				= { x = 1982.68, y = 3053.11, z = 46.22 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
