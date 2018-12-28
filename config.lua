@@ -1050,7 +1050,37 @@ Config.Zones = {
 		TimeBeforeNewRob 	= 1800,
 		PoliceRequired		= 1
 	},	
-	
+	["Ammunation (Spanish Ave) *Cash 1*"] = {
+		Pos				= { x = 250.94, y = -45.44, z = 68.94 },
+		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
+		Color 		= { r = 220, g = 110, b = 0 },
+		AreaSize 	= 15,
+		Type  		= 1,
+		CurrentMoney			= 250,
+		MaxMoney 					= 500,
+		MoneyRegeneration	= math.random(250,500),
+		BankToDeliver 		= "Fleeca Bank (Hawick Ave)",
+		Robbed						= 0, -- DO NOT CHANGE
+		TimeToRob					= 60,
+		TimeBeforeNewRob 	= 1800,
+		PoliceRequired		= 1
+	},	
+		["Ammunation (Spanish Ave) *Cash 2*"] = {
+		Pos				= { x = 253.55, y = -51.87, z = 68.94 },
+		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
+		Color 		= { r = 220, g = 110, b = 0 },
+		AreaSize 	= 15,
+		Type  		= 1,
+		CurrentMoney			= 250,
+		MaxMoney 					= 500,
+		MoneyRegeneration	= math.random(250,500),
+		BankToDeliver 		= "Fleeca Bank (Hawick Ave)",
+		Robbed						= 0, -- DO NOT CHANGE
+		TimeToRob					= 60,
+		TimeBeforeNewRob 	= 1800,
+		PoliceRequired		= 1
+	},	
+
 	-- BANKS
 
 	["Fleeca Bank (Hawick Ave)"] = {
