@@ -82,7 +82,7 @@ RegisterNetEvent('esx_advanced_holdup:robPoliceNotification')
 AddEventHandler('esx_advanced_holdup:robPoliceNotification', function(zone)
 	PlaySoundFrontend(-1, "Event_Start_Text", "GTAO_FM_Events_Soundset", 0)
 	Citizen.Wait(100)
-	ESX.ShowAdvancedNotification(_U('911_emergency'), _U('notif_zone_name', zone), _U('911_message_alarm'), 'CHAR_CALL911', 1)
+	ESX.ShowAdvancedNotification(_U('911_emergency'), _U('notif_zone_name', zone), _U('911_message_alarm'), 'CHAR_MP_MERRYWEATHER', 1)
 end)
 
 RegisterNetEvent('esx_advanced_holdup:robCompleteNotification')
@@ -99,9 +99,9 @@ AddEventHandler('esx_advanced_holdup:robCompleteAtNotification', function(zone, 
 	PlaySoundFrontend(-1, "Event_Start_Text", "GTAO_FM_Events_Soundset", 0)
 	Citizen.Wait(100)
 	if complete then
-		ESX.ShowAdvancedNotification(_U('911_emergency'), _U('notif_zone_name', zone), _U('911_message_complete'), 'CHAR_CALL911', 1)
+		ESX.ShowAdvancedNotification(_U('911_emergency'), _U('notif_zone_name', zone), _U('911_message_complete'), 'CHAR_MP_MERRYWEATHER', 1)
 	else
-		ESX.ShowAdvancedNotification(_U('911_emergency'), _U('notif_zone_name', zone), _U('911_message_cancel'), 'CHAR_CALL911', 1)
+		ESX.ShowAdvancedNotification(_U('911_emergency'), _U('notif_zone_name', zone), _U('911_message_cancel'), 'CHAR_MP_MERRYWEATHER', 1)
 	end
 end)
 
