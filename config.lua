@@ -102,7 +102,7 @@ Config.Zones = {
 		PoliceRequired		= 3
 	},	
 		["BP Servo (Grove St) *Cash 1*"] = {
-		Pos				= { x = 47.85, y = -1759.45, z =  28.42},
+		Pos				= { x = -47.85, y = -1759.45, z =  28.42},
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
@@ -117,7 +117,7 @@ Config.Zones = {
 		PoliceRequired		= 1
 	},	
 		["BP Servo (Grove St) *Cash 2*"] = {
-		Pos				= { x = 73.9, y = -1387.64, z =  28.38},
+		Pos				= { x = -46.65, y = -1757.98, z =  28.42},
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
@@ -132,7 +132,7 @@ Config.Zones = {
 		PoliceRequired		= 1
 	},	
 		["BP Servo (Grove St) *Safe*"] = {
-		Pos				= { x = -43.057, y = -1748.811, z = 28.421 },
+		Pos				= { x = -43.057, y = -1748.811, z = 28.42 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
