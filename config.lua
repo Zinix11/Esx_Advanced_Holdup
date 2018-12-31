@@ -146,7 +146,7 @@ Config.Zones = {
 		PoliceRequired		= 3
 	},
 		["Rob's Botte-O (El Rancho Blvd) *Cash*"] = {
-		Pos				= { x = 1134.21, y = -982.53, z = 44.42 },
+		Pos				= { x = 1134.21, y = -982.53, z = 46.42 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
@@ -161,7 +161,7 @@ Config.Zones = {
 		PoliceRequired		= 1
 	},	
 		["Rob's Botte-O (El Rancho Blvd) *Safe*"] = {
-		Pos				= { x = 1126.65, y = -980.56, z = 43.42 },
+		Pos				= { x = 1126.65, y = -980.56, z = 45.42 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
@@ -207,7 +207,7 @@ Config.Zones = {
 	-- SECONDARY STORES (SUCH AS CLOTHING AND TATTOOS)
 	
 		["Discount Store (Innocence Blvd) *Cash 1*"] = {
-		Pos				= { x = 78.09, y = -1387.63, z =  28.38},
+		Pos				= { x = 78.09, y = -1387.63, z = 28.38 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
@@ -222,7 +222,7 @@ Config.Zones = {
 		PoliceRequired		= 1
 	},	
 		["Discount Store (Innocence Blvd) *Cash 2*"] = {
-		Pos				= { x = 78.09, y = -1387.63, z =  28.38},
+		Pos				= { x = 78.09, y = -1387.63, z = 28.38 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
@@ -237,7 +237,7 @@ Config.Zones = {
 		PoliceRequired		= 1
 	},	
 		["Discount Store (Innocence Blvd) *Cash 3*"] = {
-		Pos				= { x = 73.9, y = -1387.64, z =  28.38},
+		Pos				= { x = 73.9, y = -1387.64, z = 28.38 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
@@ -312,7 +312,7 @@ Config.Zones = {
 		PoliceRequired		= 1
 	},		
 		["Ammunation (Vespucci Blvd) *Cash 2*"] = {
-		Pos				= { x = 813.92, y = -1035.82, z = 27.19 },
+		Pos				= { x = 841.07, y = -1035.29, z = 27.19 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
@@ -327,7 +327,7 @@ Config.Zones = {
 		PoliceRequired		= 1
 	},
 		["Discount Store (Sinner St) *Cash 1*"] = {
-		Pos				= { x = 422.85, y = -811.6, z =  28.49},
+		Pos				= { x = 422.85, y = -811.6, z = 28.49 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
@@ -342,7 +342,7 @@ Config.Zones = {
 		PoliceRequired		= 1
 	},	
 		["Discount Store (Sinner St) *Cash 1*"] = {
-		Pos				= { x = 422.85, y = -811.6, z =  28.49},
+		Pos				= { x = 422.85, y = -811.6, z = 28.49 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
@@ -357,7 +357,22 @@ Config.Zones = {
 		PoliceRequired		= 1
 	},
 		["Discount Store (Sinner St) *Cash 3*"] = {
-		Pos				= { x = 427.05, y = -807.05, z =  28.49},
+		Pos				= { x = 427.05, y = -807.05, z = 28.49 },
+		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
+		Color 		= { r = 220, g = 110, b = 0 },
+		AreaSize 	= 15,
+		Type  		= 1,
+		CurrentMoney			= 250,
+		MaxMoney 					= 500,
+		MoneyRegeneration	= math.random(250,500),
+		BankToDeliver 		= "Fleeca Bank (Vespucci Blvd)",
+		Robbed						= 0, -- DO NOT CHANGE
+		TimeToRob					= 60,
+		TimeBeforeNewRob 	= 1800,
+		PoliceRequired		= 1
+	},
+		["Los Santos Tattoo (East Los Santos) *Cash*"] = {
+		Pos				= { x = 1325.18, y = -1650.59, z = 52.28 },
 		Size  		= { x = 1.5, y = 1.5, z = 1.0 },
 		Color 		= { r = 220, g = 110, b = 0 },
 		AreaSize 	= 15,
